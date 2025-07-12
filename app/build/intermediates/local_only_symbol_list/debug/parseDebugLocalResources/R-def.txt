@@ -1,0 +1,27 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color green
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable emoji_events_100
+drawable emoji_events_24
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id label
+id startButton
+id sublabel
+id welcomeTextView
+layout activity_main
+layout activity_second
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string main_label
+string start_button
+string sub_label
+string welcome_message
+style Theme.MyTestApp

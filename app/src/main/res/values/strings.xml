@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Android App</string>
+    <string name="main_label">My Training App</string>
+    <string name="sub_label">To get started, click the button below</string>
+    <string name="start_button">Begin</string>
+    <string name="welcome_message">Congratulations.\nYou finished your training!</string>
+</resources>
