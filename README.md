@@ -38,6 +38,9 @@ adb shell settings put global animator_duration_scale 0
 
 Disabling these animations ensures your UI tests run faster and more reliably.
 
+For more details, see the official Espresso setup documentation:
+https://developer.android.com/training/testing/espresso/setup
+
 ## Functionality
 
 - When the app starts, MainActivity is displayed with the message "My Training App" and the subtitle "To get started, click the button below", along with a "Begin" button.
