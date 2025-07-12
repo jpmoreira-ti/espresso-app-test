@@ -1,7 +1,7 @@
-EXECUTING: /Users/jp/Library/Android/sdk/build-tools/34.0.0/aapt dump badging /Users/jp/Documents/Projects/AndroidApp/MyTestApp/app/build/intermediates/apk/debug/app-debug.apk
+EXECUTING: /Users/jp/Library/Android/sdk/build-tools/34.0.0/aapt dump badging /Users/jp/Documents/Projects/AndroidApp/MyTestApp/app/build/outputs/apk/debug/app-debug.apk
 CURRENT_WORKING_DIRECTORY: /Users/jp/Documents/Projects/AndroidApp/MyTestApp
-START_TIME: 2025-07-12 20:04:11.734
-START_TIME-NANOS: 2025-07-12 20:04:11.734294000
+START_TIME: 2025-07-12 20:20:00.047
+START_TIME-NANOS: 2025-07-12 20:20:00.047618000
 ENVIRONMENT:
 
 *****************************************
@@ -106,7 +106,6 @@ application-icon-480:'res/mipmap-anydpi-v26/ic_launcher.xml'
 application-icon-640:'res/mipmap-anydpi-v26/ic_launcher.xml'
 application-icon-65534:'res/mipmap-anydpi-v26/ic_launcher.xml'
 application: label='Android App' icon='res/mipmap-anydpi-v26/ic_launcher.xml'
-testOnly='-1'
 application-debuggable
 launchable-activity: name='com.mytestapp.MainActivity'  label='' icon=''
 feature-group: label=''
@@ -120,7 +119,7 @@ supports-any-density: 'true'
 locales: '--_--' 'af' 'am' 'ar' 'as' 'az' 'be' 'bg' 'bn' 'bs' 'ca' 'cs' 'da' 'de' 'el' 'en-AU' 'en-CA' 'en-GB' 'en-IN' 'en-XC' 'es' 'es-419' 'es-US' 'et' 'eu' 'fa' 'fi' 'fr' 'fr-CA' 'gl' 'gu' 'hi' 'hr' 'hu' 'hy' 'in' 'is' 'it' 'iw' 'ja' 'ka' 'kk' 'km' 'kn' 'ko' 'ky' 'lo' 'lt' 'lv' 'mk' 'ml' 'mn' 'mr' 'ms' 'my' 'nb' 'ne' 'nl' 'or' 'pa' 'pl' 'pt' 'pt-BR' 'pt-PT' 'ro' 'ru' 'si' 'sk' 'sl' 'sq' 'sr' 'sr-Latn' 'sv' 'sw' 'ta' 'te' 'th' 'tl' 'tr' 'uk' 'ur' 'uz' 'vi' 'zh-CN' 'zh-HK' 'zh-TW' 'zu'
 densities: '160' '240' '320' '480' '640' '65534'
 ===================
-END_TIME: 2025-07-12 20:04:11.764
-END_TIME-NANOS: 2025-07-12 20:04:11.764489000
-DURATION: 30ms
+END_TIME: 2025-07-12 20:20:00.289
+END_TIME-NANOS: 2025-07-12 20:20:00.289434000
+DURATION: 241ms
 EXIT CODE: 0

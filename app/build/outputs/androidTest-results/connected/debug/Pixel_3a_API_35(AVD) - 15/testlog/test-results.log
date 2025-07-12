@@ -44,7 +44,7 @@ INSTRUMENTATION_STATUS: test=validateSecondActivityInfo
 INSTRUMENTATION_STATUS_CODE: 0
 INSTRUMENTATION_RESULT: stream=
 
-Time: 2.588
+Time: 5.493
 
 OK (3 tests)
 

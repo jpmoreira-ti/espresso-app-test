@@ -1,7 +1,7 @@
 
-»
-S
-MainActivityTest	mytestappvalidateMainActivityInfo2Ë”À√ÄõâÒ:È”À√Ä◊ﬁŒ"Ÿ
+«
+R
+MainActivityTest	mytestappvalidateMainActivityInfo2ô€À√¿å≠≥:ú€À√¿ı"Ÿ
 
 logcatandroid√
 ¿/Users/jp/Documents/Projects/AndroidApp/MyTestApp/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_35(AVD) - 15/logcat-mytestapp.MainActivityTest-validateMainActivityInfo.txt"Æ
@@ -15,7 +15,7 @@ S
 device-info.cpuinfoandroidå
 â/Users/jp/Documents/Projects/AndroidApp/MyTestApp/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_35(AVD) - 15/cpuinfoÊ
 b
-MainActivityTest	mytestapp'validateClickOnButtonOpenSecondActivity2È”À√Ä˘ﬁ:Í”À√Ä‘›•"Ë
+MainActivityTest	mytestapp'validateClickOnButtonOpenSecondActivity2ú€À√Ä±öﬁ:ù€À√¿ÿ£†"Ë
 
 logcatandroid“
 œ/Users/jp/Documents/Projects/AndroidApp/MyTestApp/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_35(AVD) - 15/logcat-mytestapp.MainActivityTest-validateClickOnButtonOpenSecondActivity.txt"Æ
@@ -27,9 +27,9 @@ b
 â/Users/jp/Documents/Projects/AndroidApp/MyTestApp/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_35(AVD) - 15/meminfo"Ø
 
 device-info.cpuinfoandroidå
-â/Users/jp/Documents/Projects/AndroidApp/MyTestApp/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_35(AVD) - 15/cpuinfo–
-W
-SecondActivityTest	mytestappvalidateSecondActivityInfo2Í”À√¿„ì:Î”À√¿îÁâ"›
+â/Users/jp/Documents/Projects/AndroidApp/MyTestApp/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_35(AVD) - 15/cpuinfoœ
+V
+SecondActivityTest	mytestappvalidateSecondActivityInfo2û€À√¿ëÔ⁄:ü€À√¿ÀËK"›
 
 logcatandroid«
 ƒ/Users/jp/Documents/Projects/AndroidApp/MyTestApp/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_35(AVD) - 15/logcat-mytestapp.SecondActivityTest-validateSecondActivityInfo.txt"Æ

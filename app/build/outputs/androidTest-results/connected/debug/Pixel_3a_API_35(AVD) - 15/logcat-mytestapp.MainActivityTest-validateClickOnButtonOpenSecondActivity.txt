@@ -1,119 +1,112 @@
-07-12 20:04:09.437  5008  5022 I TestRunner: started: validateClickOnButtonOpenSecondActivity(mytestapp.MainActivityTest)
-07-12 20:04:09.438  1134  1134 D SsBaseTemplateCard: No text view can be set up
-07-12 20:04:09.439  1134  1134 D SsBaseTemplateCard: Passed-in item info is null
-07-12 20:04:09.439  1134  1134 D SsBaseTemplateCard: Passed-in item info is null
-07-12 20:04:09.439  1134  1134 D SsBaseTemplateCard: Passed-in item info is null
-07-12 20:04:09.439  1134  1134 I SsBaseTemplateCard: Secondary card pane is null
-07-12 20:04:09.442   571  1532 W InputManager-JNI: Input channel object '11caca6 com.mytestapp/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity (client)' was disposed without first being removed with the input manager!
-07-12 20:04:09.446  5008  5022 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
-07-12 20:04:09.449   571   989 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@8d4bbaa8 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
-07-12 20:04:09.455  1134  1134 I TopTaskTracker: onTaskRemoved: taskId=278
-07-12 20:04:09.455  1134  1134 I TopTaskTracker: onTaskRemoved: taskId=278
-07-12 20:04:09.479  1134  1134 W SplitSelectStateCtor: Missing session instanceIds
-07-12 20:04:09.479  1134  1134 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
-07-12 20:04:09.484 24964 27190 I FontLog : (REDACTED) Received query %s, URI %s
-07-12 20:04:09.486 24964 27190 I FontLog : (REDACTED) Query [%s] resolved to %s
-07-12 20:04:09.488   404   404 I BpBinder: onLastStrongRef automatically unlinking death recipients:
-07-12 20:04:09.498 24964 27190 I FontLog : (REDACTED) Fetch %s end status %s
-07-12 20:04:09.503  1134  1134 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=279, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.mytestapp/.MainActivity }
-07-12 20:04:09.519 24964 28389 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
-07-12 20:04:09.527 24964 28389 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
-07-12 20:04:09.534  5008  5008 D LifecycleMonitor: Lifecycle status change: com.mytestapp.MainActivity@f834eb2 in: PRE_ON_CREATE
-07-12 20:04:09.535  5008  5008 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
-07-12 20:04:09.581  1134  1134 D SearchTargetUtil: queryLength=0 size=0
-07-12 20:04:09.599  5008  5008 D LifecycleMonitor: Lifecycle status change: com.mytestapp.MainActivity@f834eb2 in: CREATED
-07-12 20:04:09.599  5008  5008 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.mytestapp.MainActivity@f834eb2
-07-12 20:04:09.601  5008  5008 D LifecycleMonitor: Lifecycle status change: com.mytestapp.MainActivity@f834eb2 in: STARTED
-07-12 20:04:09.606  5008  5008 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.mytestapp.MainActivity@f834eb2
-07-12 20:04:09.623  5008  5008 D LifecycleMonitor: Lifecycle status change: com.mytestapp.MainActivity@f834eb2 in: RESUMED
-07-12 20:04:09.626  5008  5008 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.mytestapp.MainActivity@f834eb2
-07-12 20:04:09.651  1134  1134 D VRI[NexusLauncherActivity]: visibilityChanged oldVisibility=true newVisibility=false
-07-12 20:04:09.654  1134  1134 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=7}
-07-12 20:04:09.692   571   621 W ziparchive: Unable to open '/data/app/~~D9HBQDzcTZ9vvNvzsczkww==/com.mytestapp-V51Y-8X1_Mo7_eY9ILMOuw==/base.dm': No such file or directory
-07-12 20:04:09.698   571   621 I ActivityTaskManager: Displayed com.mytestapp/.MainActivity for user 0: +241ms
-07-12 20:04:09.703  1134  1134 D BaseDepthController: setSurface:
-07-12 20:04:09.703  1134  1134 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
-07-12 20:04:09.703  1134  1134 D BaseDepthController: 	mSurface: null
-07-12 20:04:09.703  1134  1134 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
-07-12 20:04:09.704  1134  1134 D StateManager: goToState - fromState: Normal, toState: Normal, partial trace:
-07-12 20:04:09.704  1134  1134 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 485d0a63b32755c2e0617651e62706492899977786a56dedfba7c7b896a2ddb7:4)
-07-12 20:04:09.704  1134  1134 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 485d0a63b32755c2e0617651e62706492899977786a56dedfba7c7b896a2ddb7:1)
-07-12 20:04:09.704  1134  1134 D StateManager: 	at com.android.launcher3.statemanager.StatefulActivity.onStop(go/retraceme 485d0a63b32755c2e0617651e62706492899977786a56dedfba7c7b896a2ddb7:34)
-07-12 20:04:09.705  1134  1134 D StatsLog: LAUNCHER_ONSTOP
-07-12 20:04:09.706  1134  1134 D StatsLog: LAUNCHER_GOOGLE_SEARCH_RESTORE_LIST_SIZE_AFTER_ACTIVITY_RESTART
-07-12 20:04:09.712  1134  1610 D OneSearchSuggestProvider: Shut down the binder channel
-07-12 20:04:09.713   571   714 I ImeTracker: com.mytestapp:45cc726f: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
-07-12 20:04:09.713   571   714 I ImeTracker: com.mytestapp:45cc726f: onCancelled at PHASE_SERVER_SHOULD_HIDE
-07-12 20:04:09.717 25144 25144 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():1984
-07-12 20:04:09.720 25144 25144 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 0, locked = false
-07-12 20:04:09.721   841   932 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@c7ba3ae
-07-12 20:04:09.722 25144 25144 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1248 onStartInput(EditorInfo{EditorInfo{packageName=com.mytestapp, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
-07-12 20:04:09.725  1134  8128 I IPCThreadState: oneway function results for code 2 on binder at 0xb400007d1447d0f0 will be dropped but finished with status UNKNOWN_TRANSACTION
-07-12 20:04:09.728 25144 25144 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
-07-12 20:04:09.736   571  1532 W InputManager-JNI: Input channel object 'e0aad78 Splash Screen com.mytestapp (client)' was disposed without first being removed with the input manager!
-07-12 20:04:09.768  5008  5022 W com.mytestapp: Accessing hidden method Landroid/view/ViewConfiguration;->getDoubleTapMinTime()I (unsupported, reflection, allowed)
-07-12 20:04:09.780  5008  5008 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131231138/com.mytestapp:id/startButton>
-07-12 20:04:09.871   571   928 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@8d4bbaa8 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
-07-12 20:04:09.880   400  1070 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
-07-12 20:04:09.882   571  2095 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 15
-07-12 20:04:09.886   400   501 D AudioFlinger: mixer(0xb400007ecc90e8e0) throttle end: throttle time(26)
-07-12 20:04:09.890  5008  5008 D LifecycleMonitor: Lifecycle status change: com.mytestapp.MainActivity@f834eb2 in: PAUSED
-07-12 20:04:09.891  5008  5008 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.mytestapp.MainActivity@f834eb2
-07-12 20:04:09.904   404   404 I BpBinder: onLastStrongRef automatically unlinking death recipients:
-07-12 20:04:09.912  5008  5008 D LifecycleMonitor: Lifecycle status change: com.mytestapp.SecondActivity@6e7a796 in: PRE_ON_CREATE
-07-12 20:04:09.913  5008  5008 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.mytestapp/.MainActivity }, activity.getIntent()=Intent { cmp=com.mytestapp/.SecondActivity }, activity=com.mytestapp.SecondActivity@6e7a796
-07-12 20:04:09.929  5008  5008 D LifecycleMonitor: Lifecycle status change: com.mytestapp.SecondActivity@6e7a796 in: CREATED
-07-12 20:04:09.930  5008  5008 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.mytestapp/.MainActivity }, activity.getIntent()=Intent { cmp=com.mytestapp/.SecondActivity }, activity=com.mytestapp.SecondActivity@6e7a796
-07-12 20:04:09.931  5008  5008 D LifecycleMonitor: Lifecycle status change: com.mytestapp.SecondActivity@6e7a796 in: STARTED
-07-12 20:04:09.931  5008  5008 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.mytestapp/.MainActivity }, activity.getIntent()=Intent { cmp=com.mytestapp/.SecondActivity }, activity=com.mytestapp.SecondActivity@6e7a796
-07-12 20:04:09.933  5008  5008 D LifecycleMonitor: Lifecycle status change: com.mytestapp.SecondActivity@6e7a796 in: RESUMED
-07-12 20:04:09.933  5008  5008 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.mytestapp/.MainActivity }, activity.getIntent()=Intent { cmp=com.mytestapp/.SecondActivity }, activity=com.mytestapp.SecondActivity@6e7a796
-07-12 20:04:09.997   571   621 I ActivityTaskManager: Displayed com.mytestapp/.SecondActivity for user 0: +126ms
-07-12 20:04:10.046   400   501 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
-07-12 20:04:10.060   571   714 I ImeTracker: com.mytestapp:b7841c7e: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
-07-12 20:04:10.060   571   714 I ImeTracker: com.mytestapp:b7841c7e: onCancelled at PHASE_SERVER_SHOULD_HIDE
-07-12 20:04:10.063 25144 25144 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():1984
-07-12 20:04:10.069 25144 25144 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 0, locked = false
-07-12 20:04:10.072 25144 25144 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1248 onStartInput(EditorInfo{EditorInfo{packageName=com.mytestapp, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
-07-12 20:04:10.077 25144 25144 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
-07-12 20:04:10.086  5008  5008 D VRI[MainActivity]: visibilityChanged oldVisibility=true newVisibility=false
-07-12 20:04:10.088  5008  5008 D LifecycleMonitor: Lifecycle status change: com.mytestapp.MainActivity@f834eb2 in: STOPPED
-07-12 20:04:10.090  5008  5008 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.mytestapp.MainActivity@f834eb2
-07-12 20:04:10.101   363  5043 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
-07-12 20:04:10.101   363  5043 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
-07-12 20:04:10.205   363  5043 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
-07-12 20:04:10.205   363  5043 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
-07-12 20:04:10.227  5008  5008 I ViewInteraction: Checking 'androidx.test.espresso.intent.Intents$2@7a936fc' assertion on view view.getRootView() to equal view
-07-12 20:04:10.234   571  1535 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@8d4bbaa8 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
-07-12 20:04:10.238  5008  5008 D LifecycleMonitor: Lifecycle status change: com.mytestapp.SecondActivity@6e7a796 in: PAUSED
-07-12 20:04:10.238  5008  5008 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.mytestapp/.MainActivity }, activity.getIntent()=Intent { cmp=com.mytestapp/.SecondActivity }, activity=com.mytestapp.SecondActivity@6e7a796
-07-12 20:04:10.245  5008  5008 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@f938b00 in: PRE_ON_CREATE
-07-12 20:04:10.245  5008  5008 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.mytestapp/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.mytestapp/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@f938b00
-07-12 20:04:10.247  5008  5008 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@f938b00 in: CREATED
-07-12 20:04:10.247  5008  5008 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.mytestapp/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.mytestapp/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@f938b00
-07-12 20:04:10.248  5008  5008 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@f938b00 in: STARTED
-07-12 20:04:10.248  5008  5008 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.mytestapp/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.mytestapp/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@f938b00
-07-12 20:04:10.249  5008  5008 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@f938b00 in: RESUMED
-07-12 20:04:10.249  5008  5008 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.mytestapp/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.mytestapp/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@f938b00
-07-12 20:04:10.253   404   404 I BpBinder: onLastStrongRef automatically unlinking death recipients:
-07-12 20:04:10.266   571   621 I ActivityTaskManager: Displayed com.mytestapp/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity for user 0: +31ms
-07-12 20:04:10.269  5008  5008 D LifecycleMonitor: Lifecycle status change: com.mytestapp.MainActivity@f834eb2 in: DESTROYED
-07-12 20:04:10.269  5008  5008 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
-07-12 20:04:10.269  5008  5008 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@41c6ea4
-07-12 20:04:10.275   571  1535 W InputManager-JNI: Input channel object '6a6053e com.mytestapp/com.mytestapp.MainActivity (client)' was disposed without first being removed with the input manager!
-07-12 20:04:10.280  5008  5008 D VRI[SecondActivity]: visibilityChanged oldVisibility=true newVisibility=false
-07-12 20:04:10.286  5008  5008 D LifecycleMonitor: Lifecycle status change: com.mytestapp.SecondActivity@6e7a796 in: STOPPED
-07-12 20:04:10.287  5008  5008 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.mytestapp/.MainActivity }, activity.getIntent()=Intent { cmp=com.mytestapp/.SecondActivity }, activity=com.mytestapp.SecondActivity@6e7a796
-07-12 20:04:10.288   404   404 I BpBinder: onLastStrongRef automatically unlinking death recipients:
-07-12 20:04:10.289  5008  5008 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@f938b00 in: PAUSED
-07-12 20:04:10.289  5008  5008 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.mytestapp/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.mytestapp/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@f938b00
-07-12 20:04:10.297  5008  5008 D LifecycleMonitor: Lifecycle status change: com.mytestapp.SecondActivity@6e7a796 in: RESTARTED
-07-12 20:04:10.297  5008  5008 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.mytestapp/.MainActivity }, activity.getIntent()=Intent { cmp=com.mytestapp/.SecondActivity }, activity=com.mytestapp.SecondActivity@6e7a796
-07-12 20:04:10.297  5008  5008 D LifecycleMonitor: Lifecycle status change: com.mytestapp.SecondActivity@6e7a796 in: STARTED
-07-12 20:04:10.298  5008  5008 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.mytestapp/.MainActivity }, activity.getIntent()=Intent { cmp=com.mytestapp/.SecondActivity }, activity=com.mytestapp.SecondActivity@6e7a796
-07-12 20:04:10.300  5008  5008 D LifecycleMonitor: Lifecycle status change: com.mytestapp.SecondActivity@6e7a796 in: RESUMED
-07-12 20:04:10.300  5008  5008 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.mytestapp/.MainActivity }, activity.getIntent()=Intent { cmp=com.mytestapp/.SecondActivity }, activity=com.mytestapp.SecondActivity@6e7a796
-07-12 20:04:10.309   363  5043 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
-07-12 20:04:10.309   363  5043 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
-07-12 20:04:10.324  5008  5019 E FrameEvents: addRelease: Did not find frame.
-07-12 20:04:10.330  5008  5022 I TestRunner: finished: validateClickOnButtonOpenSecondActivity(mytestapp.MainActivityTest)
+07-12 20:19:56.208  5350  5364 I TestRunner: started: validateClickOnButtonOpenSecondActivity(mytestapp.MainActivityTest)
+07-12 20:19:56.230  1134  1134 I TopTaskTracker: onTaskRemoved: taskId=281
+07-12 20:19:56.230  1134  1134 I TopTaskTracker: onTaskRemoved: taskId=281
+07-12 20:19:56.233  5350  5364 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+07-12 20:19:56.239 30509 30509 I fkzu    : (REDACTED) Created gRPC endpoint for service %s
+07-12 20:19:56.264   571  1520 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@90b56be6 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+07-12 20:19:56.280  1134  1134 W SplitSelectStateCtor: Missing session instanceIds
+07-12 20:19:56.285  1134  1134 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+07-12 20:19:56.307 30509 30586 I elok    : (REDACTED) %s TNG App is logging Clearcut event named %s with the %s account state and %s source
+07-12 20:19:56.310  1134  1134 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=282, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.mytestapp/.MainActivity }
+07-12 20:19:56.342   404   404 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+07-12 20:19:56.369  5350  5350 D LifecycleMonitor: Lifecycle status change: com.mytestapp.MainActivity@c8eee03 in: PRE_ON_CREATE
+07-12 20:19:56.371  5350  5350 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+07-12 20:19:56.493  5350  5350 D LifecycleMonitor: Lifecycle status change: com.mytestapp.MainActivity@c8eee03 in: CREATED
+07-12 20:19:56.493  5350  5350 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.mytestapp.MainActivity@c8eee03
+07-12 20:19:56.496  5350  5350 D LifecycleMonitor: Lifecycle status change: com.mytestapp.MainActivity@c8eee03 in: STARTED
+07-12 20:19:56.496  5350  5350 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.mytestapp.MainActivity@c8eee03
+07-12 20:19:56.500  5350  5350 D LifecycleMonitor: Lifecycle status change: com.mytestapp.MainActivity@c8eee03 in: RESUMED
+07-12 20:19:56.500  5350  5350 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.mytestapp.MainActivity@c8eee03
+07-12 20:19:56.546  1134  1134 D VRI[NexusLauncherActivity]: visibilityChanged oldVisibility=true newVisibility=false
+07-12 20:19:56.559  1134  1134 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=7}
+07-12 20:19:56.604   841  1028 D EGL_emulation: app_time_stats: avg=533.60ms min=9.27ms max=1175.50ms count=4
+07-12 20:19:56.623   571   621 W ziparchive: Unable to open '/data/app/~~7sE5y-nfMkIuEL68c9r3lw==/com.mytestapp-d90g8P1CQX7YX4fN8xzSqQ==/base.dm': No such file or directory
+07-12 20:19:56.631   571   621 I ActivityTaskManager: Displayed com.mytestapp/.MainActivity for user 0: +369ms
+07-12 20:19:56.647  1134  1134 D BaseDepthController: setSurface:
+07-12 20:19:56.647  1134  1134 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+07-12 20:19:56.647  1134  1134 D BaseDepthController: 	mSurface: null
+07-12 20:19:56.647   571   714 I ImeTracker: com.mytestapp:ae01f276: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+07-12 20:19:56.647   571   714 I ImeTracker: com.mytestapp:ae01f276: onCancelled at PHASE_SERVER_SHOULD_HIDE
+07-12 20:19:56.648  1134  1134 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+07-12 20:19:56.654  1134  1134 D StateManager: goToState - fromState: Normal, toState: Normal, partial trace:
+07-12 20:19:56.654  1134  1134 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 485d0a63b32755c2e0617651e62706492899977786a56dedfba7c7b896a2ddb7:4)
+07-12 20:19:56.654  1134  1134 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 485d0a63b32755c2e0617651e62706492899977786a56dedfba7c7b896a2ddb7:1)
+07-12 20:19:56.654  1134  1134 D StateManager: 	at com.android.launcher3.statemanager.StatefulActivity.onStop(go/retraceme 485d0a63b32755c2e0617651e62706492899977786a56dedfba7c7b896a2ddb7:34)
+07-12 20:19:56.655   841   932 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@f0085a2
+07-12 20:19:56.657  1134  1134 D StatsLog: LAUNCHER_ONSTOP
+07-12 20:19:56.658 25144 25144 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():1984
+07-12 20:19:56.659 25144 25144 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 0, locked = false
+07-12 20:19:56.659 25144 25144 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1248 onStartInput(EditorInfo{EditorInfo{packageName=com.mytestapp, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+07-12 20:19:56.660  1134  1610 D OneSearchSuggestProvider: Shut down the binder channel
+07-12 20:19:56.664  1134  1134 D StatsLog: LAUNCHER_GOOGLE_SEARCH_RESTORE_LIST_SIZE_AFTER_ACTIVITY_RESTART
+07-12 20:19:56.666 25144 25144 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
+07-12 20:19:56.666   571  1520 W InputManager-JNI: Input channel object '2e6cfff Splash Screen com.mytestapp (client)' was disposed without first being removed with the input manager!
+07-12 20:19:56.668  5350  5364 W com.mytestapp: Accessing hidden method Landroid/view/ViewConfiguration;->getDoubleTapMinTime()I (unsupported, reflection, allowed)
+07-12 20:19:56.680  5350  5350 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131231138/com.mytestapp:id/startButton>
+07-12 20:19:56.714  1134  1134 D SearchTargetUtil: queryLength=0 size=0
+07-12 20:19:56.719  1134  8128 I IPCThreadState: oneway function results for code 2 on binder at 0xb400007d14498660 will be dropped but finished with status UNKNOWN_TRANSACTION
+07-12 20:19:56.883   571  2095 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@90b56be6 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+07-12 20:19:56.904   404   404 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+07-12 20:19:56.906  5350  5350 D LifecycleMonitor: Lifecycle status change: com.mytestapp.MainActivity@c8eee03 in: PAUSED
+07-12 20:19:56.908  5350  5350 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.mytestapp.MainActivity@c8eee03
+07-12 20:19:56.914   400   485 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+07-12 20:19:56.927   571   928 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 15
+07-12 20:19:56.939  5350  5350 D LifecycleMonitor: Lifecycle status change: com.mytestapp.SecondActivity@660f558 in: PRE_ON_CREATE
+07-12 20:19:56.939  5350  5350 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.mytestapp/.MainActivity }, activity.getIntent()=Intent { cmp=com.mytestapp/.SecondActivity }, activity=com.mytestapp.SecondActivity@660f558
+07-12 20:19:56.963   400   501 D AudioFlinger: mixer(0xb400007ecc90e8e0) throttle end: throttle time(36)
+07-12 20:19:56.963  5350  5350 D LifecycleMonitor: Lifecycle status change: com.mytestapp.SecondActivity@660f558 in: CREATED
+07-12 20:19:56.963  5350  5350 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.mytestapp/.MainActivity }, activity.getIntent()=Intent { cmp=com.mytestapp/.SecondActivity }, activity=com.mytestapp.SecondActivity@660f558
+07-12 20:19:56.964  5350  5350 D LifecycleMonitor: Lifecycle status change: com.mytestapp.SecondActivity@660f558 in: STARTED
+07-12 20:19:56.964  5350  5350 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.mytestapp/.MainActivity }, activity.getIntent()=Intent { cmp=com.mytestapp/.SecondActivity }, activity=com.mytestapp.SecondActivity@660f558
+07-12 20:19:56.965  5350  5350 D LifecycleMonitor: Lifecycle status change: com.mytestapp.SecondActivity@660f558 in: RESUMED
+07-12 20:19:56.965  5350  5350 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.mytestapp/.MainActivity }, activity.getIntent()=Intent { cmp=com.mytestapp/.SecondActivity }, activity=com.mytestapp.SecondActivity@660f558
+07-12 20:19:57.061   571   621 I ActivityTaskManager: Displayed com.mytestapp/.SecondActivity for user 0: +180ms
+07-12 20:19:57.195   400   501 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+07-12 20:19:57.254   363  5392 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+07-12 20:19:57.255   363  5392 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+07-12 20:19:57.265   571   714 I ImeTracker: com.mytestapp:74453d2a: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+07-12 20:19:57.265   571   714 I ImeTracker: com.mytestapp:74453d2a: onCancelled at PHASE_SERVER_SHOULD_HIDE
+07-12 20:19:57.276  5350  5350 D VRI[MainActivity]: visibilityChanged oldVisibility=true newVisibility=false
+07-12 20:19:57.283 25144 25144 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():1984
+07-12 20:19:57.289  5350  5350 D LifecycleMonitor: Lifecycle status change: com.mytestapp.MainActivity@c8eee03 in: STOPPED
+07-12 20:19:57.290  5350  5350 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.mytestapp.MainActivity@c8eee03
+07-12 20:19:57.297 25144 25144 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 0, locked = false
+07-12 20:19:57.299 25144 25144 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1248 onStartInput(EditorInfo{EditorInfo{packageName=com.mytestapp, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+07-12 20:19:57.317 25144 25144 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
+07-12 20:19:57.357   363  5392 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+07-12 20:19:57.357   363  5392 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+07-12 20:19:57.412  5350  5350 I ViewInteraction: Checking 'androidx.test.espresso.intent.Intents$2@f90dd0' assertion on view view.getRootView() to equal view
+07-12 20:19:57.430   571  1536 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@90b56be6 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+07-12 20:19:57.437  5350  5350 D LifecycleMonitor: Lifecycle status change: com.mytestapp.SecondActivity@660f558 in: PAUSED
+07-12 20:19:57.437  5350  5350 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.mytestapp/.MainActivity }, activity.getIntent()=Intent { cmp=com.mytestapp/.SecondActivity }, activity=com.mytestapp.SecondActivity@660f558
+07-12 20:19:57.439   404   404 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+07-12 20:19:57.450  5350  5350 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@c5f6994 in: PRE_ON_CREATE
+07-12 20:19:57.450  5350  5350 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.mytestapp/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.mytestapp/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@c5f6994
+07-12 20:19:57.456  5350  5350 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@c5f6994 in: CREATED
+07-12 20:19:57.456  5350  5350 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.mytestapp/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.mytestapp/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@c5f6994
+07-12 20:19:57.457  5350  5350 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@c5f6994 in: STARTED
+07-12 20:19:57.457  5350  5350 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.mytestapp/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.mytestapp/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@c5f6994
+07-12 20:19:57.459  5350  5350 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@c5f6994 in: RESUMED
+07-12 20:19:57.459  5350  5350 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.mytestapp/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.mytestapp/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@c5f6994
+07-12 20:19:57.462   363  5392 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+07-12 20:19:57.462   363  5392 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+07-12 20:19:57.500  5350  5350 D LifecycleMonitor: Lifecycle status change: com.mytestapp.MainActivity@c8eee03 in: DESTROYED
+07-12 20:19:57.500  5350  5350 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+07-12 20:19:57.500  5350  5350 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@fd5bbd1
+07-12 20:19:57.501   571   621 I ActivityTaskManager: Displayed com.mytestapp/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity for user 0: +69ms
+07-12 20:19:57.504   571  1520 W InputManager-JNI: Input channel object '29cccd0 com.mytestapp/com.mytestapp.MainActivity (client)' was disposed without first being removed with the input manager!
+07-12 20:19:57.520   404   404 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+07-12 20:19:57.523  5350  5350 D VRI[SecondActivity]: visibilityChanged oldVisibility=true newVisibility=false
+07-12 20:19:57.528  5350  5350 D LifecycleMonitor: Lifecycle status change: com.mytestapp.SecondActivity@660f558 in: STOPPED
+07-12 20:19:57.528  5350  5350 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.mytestapp/.MainActivity }, activity.getIntent()=Intent { cmp=com.mytestapp/.SecondActivity }, activity=com.mytestapp.SecondActivity@660f558
+07-12 20:19:57.529  5350  5350 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@c5f6994 in: PAUSED
+07-12 20:19:57.529  5350  5350 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.mytestapp/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.mytestapp/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@c5f6994
+07-12 20:19:57.552  5350  5350 D LifecycleMonitor: Lifecycle status change: com.mytestapp.SecondActivity@660f558 in: RESTARTED
+07-12 20:19:57.554  5350  5350 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.mytestapp/.MainActivity }, activity.getIntent()=Intent { cmp=com.mytestapp/.SecondActivity }, activity=com.mytestapp.SecondActivity@660f558
+07-12 20:19:57.554  5350  5350 D LifecycleMonitor: Lifecycle status change: com.mytestapp.SecondActivity@660f558 in: STARTED
+07-12 20:19:57.554  5350  5350 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.mytestapp/.MainActivity }, activity.getIntent()=Intent { cmp=com.mytestapp/.SecondActivity }, activity=com.mytestapp.SecondActivity@660f558
+07-12 20:19:57.555  5350  5350 D LifecycleMonitor: Lifecycle status change: com.mytestapp.SecondActivity@660f558 in: RESUMED
+07-12 20:19:57.555  5350  5350 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.mytestapp/.MainActivity }, activity.getIntent()=Intent { cmp=com.mytestapp/.SecondActivity }, activity=com.mytestapp.SecondActivity@660f558
+07-12 20:19:57.565   363  5392 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+07-12 20:19:57.565   363  5392 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+07-12 20:19:57.592  5350  5364 I TestRunner: finished: validateClickOnButtonOpenSecondActivity(mytestapp.MainActivityTest)

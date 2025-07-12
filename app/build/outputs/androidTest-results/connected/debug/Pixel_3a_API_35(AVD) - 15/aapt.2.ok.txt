@@ -1,7 +1,7 @@
-EXECUTING: /Users/jp/Library/Android/sdk/build-tools/34.0.0/aapt dump badging /Users/jp/Documents/Projects/AndroidApp/MyTestApp/app/build/intermediates/apk/androidTest/debug/app-debug-androidTest.apk
+EXECUTING: /Users/jp/Library/Android/sdk/build-tools/34.0.0/aapt dump badging /Users/jp/Documents/Projects/AndroidApp/MyTestApp/app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk
 CURRENT_WORKING_DIRECTORY: /Users/jp/Documents/Projects/AndroidApp/MyTestApp
-START_TIME: 2025-07-12 20:04:11.862
-START_TIME-NANOS: 2025-07-12 20:04:11.862265000
+START_TIME: 2025-07-12 20:20:00.591
+START_TIME-NANOS: 2025-07-12 20:20:00.591738000
 ENVIRONMENT:
 
 *****************************************
@@ -21,7 +21,7 @@ supports-any-density: 'true'
 locales: '--_--'
 densities: '160'
 ===================
-END_TIME: 2025-07-12 20:04:11.887
-END_TIME-NANOS: 2025-07-12 20:04:11.887247000
-DURATION: 24ms
+END_TIME: 2025-07-12 20:20:00.635
+END_TIME-NANOS: 2025-07-12 20:20:00.635632000
+DURATION: 43ms
 EXIT CODE: 0

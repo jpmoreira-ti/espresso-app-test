@@ -1,154 +1,118 @@
-07-12 20:04:08.461  5008  5022 I TestRunner: started: validateMainActivityInfo(mytestapp.MainActivityTest)
-07-12 20:04:08.474  5008  5022 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
-07-12 20:04:08.507   571  2095 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@8d4bbaa8 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
-07-12 20:04:08.558  1134  1134 W SplitSelectStateCtor: Missing session instanceIds
-07-12 20:04:08.558  1134  1134 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
-07-12 20:04:08.575   404   404 I BpBinder: onLastStrongRef automatically unlinking death recipients:
-07-12 20:04:08.603  1134  1134 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=278, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.mytestapp/.MainActivity }
-07-12 20:04:08.708  5008  5008 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
-07-12 20:04:08.735  5008  5008 D LifecycleMonitor: Lifecycle status change: com.mytestapp.MainActivity@899c272 in: PRE_ON_CREATE
-07-12 20:04:08.736  5008  5008 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
-07-12 20:04:08.750  1134  1561 D EGL_emulation: app_time_stats: avg=8224.11ms min=254.01ms max=16194.20ms count=2
-07-12 20:04:08.796  1134  1561 D EGL_emulation: app_time_stats: avg=9161.38ms min=84.95ms max=18237.79ms count=2
-07-12 20:04:08.797  5008  5008 E com.mytestapp: Invalid resource ID 0x00000000.
-07-12 20:04:08.803  1134  1134 D VRI[NexusLauncherActivity]: visibilityChanged oldVisibility=true newVisibility=false
-07-12 20:04:08.808  1134  1134 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=7}
-07-12 20:04:08.813  5008  5008 D CompatChangeReporter: Compat change id reported: 309578419; UID 10243; state: ENABLED
-07-12 20:04:08.827   841  1028 D EGL_emulation: app_time_stats: avg=8726.86ms min=8726.86ms max=8726.86ms count=1
-07-12 20:04:08.873  5008  5008 W com.mytestapp: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (unsupported, reflection, allowed)
-07-12 20:04:08.874  5008  5008 W com.mytestapp: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (unsupported, reflection, allowed)
-07-12 20:04:08.880  5008  5008 D CompatChangeReporter: Compat change id reported: 63938206; UID 10243; state: ENABLED
-07-12 20:04:08.919  5008  5008 D LifecycleMonitor: Lifecycle status change: com.mytestapp.MainActivity@899c272 in: CREATED
-07-12 20:04:08.919  5008  5008 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.mytestapp.MainActivity@899c272
-07-12 20:04:08.922  5008  5008 D LifecycleMonitor: Lifecycle status change: com.mytestapp.MainActivity@899c272 in: STARTED
-07-12 20:04:08.922  5008  5008 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.mytestapp.MainActivity@899c272
-07-12 20:04:08.924  5008  5008 D LifecycleMonitor: Lifecycle status change: com.mytestapp.MainActivity@899c272 in: RESUMED
-07-12 20:04:08.924  5008  5008 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.mytestapp.MainActivity@899c272
-07-12 20:04:08.930  5008  5008 W HWUI    : Unknown dataspace 0
-07-12 20:04:08.959   571   743 D WifiConfigStore: Writing to stores completed in 17 ms.
-07-12 20:04:08.965   404   544 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10243 pid=0
-07-12 20:04:08.965   404   544 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10243 => denied (238 us)
-07-12 20:04:08.965   404   544 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10243 pid=0
-07-12 20:04:08.965   404   544 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10243 => denied (110 us)
-07-12 20:04:08.966   404   544 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10243 pid=0
-07-12 20:04:08.966   404   544 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10243 => denied (336 us)
-07-12 20:04:08.966   404   827 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10243 pid=5008
-07-12 20:04:08.966   404   827 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10243 => denied (826 us)
-07-12 20:04:08.968  5008  5024 I EGL_emulation: Opening libGLESv1_CM_emulation.so
-07-12 20:04:08.968  5008  5024 I EGL_emulation: Opening libGLESv2_emulation.so
-07-12 20:04:08.998  5008  5024 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
-07-12 20:04:08.999  5008  5024 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
-07-12 20:04:09.015   160   160 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
-07-12 20:04:09.015  5008  5024 I Gralloc4: mapper 4.x is not supported
-07-12 20:04:09.061   571   989 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10243 pid=0
-07-12 20:04:09.061   571   989 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10243 => denied (79 us)
-07-12 20:04:09.061   571   989 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10243 pid=0
-07-12 20:04:09.061   571   989 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10243 => denied (17 us)
-07-12 20:04:09.061   571   989 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10243 pid=0
-07-12 20:04:09.061   571   989 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10243 => denied (5 us)
-07-12 20:04:09.067   571   621 W ziparchive: Unable to open '/data/app/~~D9HBQDzcTZ9vvNvzsczkww==/com.mytestapp-V51Y-8X1_Mo7_eY9ILMOuw==/base.dm': No such file or directory
-07-12 20:04:09.075   571   621 I ActivityTaskManager: Displayed com.mytestapp/.MainActivity for user 0: +574ms
-07-12 20:04:09.079   841   932 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@1c10620
-07-12 20:04:09.080   571   601 W InputManager-JNI: Input channel object '5774679 Splash Screen com.mytestapp (client)' was disposed without first being removed with the input manager!
-07-12 20:04:09.083  1134  1134 D BaseDepthController: setSurface:
-07-12 20:04:09.083  1134  1134 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
-07-12 20:04:09.083  1134  1134 D BaseDepthController: 	mSurface: null
-07-12 20:04:09.083  1134  1134 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
-07-12 20:04:09.084  1134  1134 D StateManager: goToState - fromState: Normal, toState: Normal, partial trace:
-07-12 20:04:09.084  1134  1134 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 485d0a63b32755c2e0617651e62706492899977786a56dedfba7c7b896a2ddb7:4)
-07-12 20:04:09.084  1134  1134 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 485d0a63b32755c2e0617651e62706492899977786a56dedfba7c7b896a2ddb7:1)
-07-12 20:04:09.084  1134  1134 D StateManager: 	at com.android.launcher3.statemanager.StatefulActivity.onStop(go/retraceme 485d0a63b32755c2e0617651e62706492899977786a56dedfba7c7b896a2ddb7:34)
-07-12 20:04:09.085  1134  1134 D StatsLog: LAUNCHER_ONSTOP
-07-12 20:04:09.087  1134  1610 D OneSearchSuggestProvider: Shut down the binder channel
-07-12 20:04:09.102  5008  5012 I com.mytestapp: Compiler allocated 4206KB to compile void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
-07-12 20:04:09.102  1134  8128 I IPCThreadState: oneway function results for code 2 on binder at 0xb400007d1447e950 will be dropped but finished with status UNKNOWN_TRANSACTION
-07-12 20:04:09.102  1134  1134 D StatsLog: LAUNCHER_GOOGLE_SEARCH_RESTORE_LIST_SIZE_AFTER_ACTIVITY_RESTART
-07-12 20:04:09.119   571   714 I ImeTracker: com.mytestapp:20c88b61: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
-07-12 20:04:09.120   571   714 I ImeTracker: com.mytestapp:20c88b61: onCancelled at PHASE_SERVER_SHOULD_HIDE
-07-12 20:04:09.129 25144 25144 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():1984
-07-12 20:04:09.133 25144 25144 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 0, locked = false
-07-12 20:04:09.134 25144 25144 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1248 onStartInput(EditorInfo{EditorInfo{packageName=com.mytestapp, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
-07-12 20:04:09.144 25144 25144 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
-07-12 20:04:09.165  5008  5022 W FileTestStorage: Output properties is not supported.
-07-12 20:04:09.166  5008  5022 I Tracing : Tracer added: class androidx.test.platform.tracing.AndroidXTracer
-07-12 20:04:09.172  5008  5022 D EventInjectionStrategy: Creating injection strategy with input manager.
-07-12 20:04:09.173  5008  5022 W com.mytestapp: Accessing hidden method Landroid/hardware/input/InputManager;->getInstance()Landroid/hardware/input/InputManager; (unsupported, reflection, allowed)
-07-12 20:04:09.174  5008  5022 W com.mytestapp: Accessing hidden method Landroid/hardware/input/InputManager;->injectInputEvent(Landroid/view/InputEvent;I)Z (unsupported, reflection, allowed)
-07-12 20:04:09.175  5008  5022 W com.mytestapp: Accessing hidden field Landroid/hardware/input/InputManager;->INJECT_INPUT_EVENT_MODE_WAIT_FOR_FINISH:I (unsupported, reflection, allowed)
-07-12 20:04:09.182  5008  5008 W com.mytestapp: Accessing hidden method Landroid/os/MessageQueue;->next()Landroid/os/Message; (unsupported, reflection, allowed)
-07-12 20:04:09.182  5008  5008 W com.mytestapp: Accessing hidden field Landroid/os/MessageQueue;->mMessages:Landroid/os/Message; (unsupported, reflection, allowed)
-07-12 20:04:09.182  5008  5008 W com.mytestapp: Accessing hidden method Landroid/os/Message;->recycleUnchecked()V (unsupported, reflection, allowed)
-07-12 20:04:09.187  5008  5008 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view view.getId() is <2131230961/com.mytestapp:id/mainLabel>
-07-12 20:04:09.195  5008  5008 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() equals string from resource id: <2131689543>}' assertion on view view.getId() is <2131230961/com.mytestapp:id/mainLabel>
-07-12 20:04:09.202  5008  5008 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view view.getId() is <2131231146/com.mytestapp:id/subLabel>
-07-12 20:04:09.207  5008  5008 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() equals string from resource id: <2131689641>}' assertion on view view.getId() is <2131231146/com.mytestapp:id/subLabel>
-07-12 20:04:09.209  5008  5008 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view view.getId() is <2131231138/com.mytestapp:id/startButton>
-07-12 20:04:09.212  5008  5008 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() equals string from resource id: <2131689639>}' assertion on view view.getId() is <2131231138/com.mytestapp:id/startButton>
-07-12 20:04:09.219   571   601 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@8d4bbaa8 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
-07-12 20:04:09.224  5008  5008 D LifecycleMonitor: Lifecycle status change: com.mytestapp.MainActivity@899c272 in: PAUSED
-07-12 20:04:09.225  5008  5008 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.mytestapp.MainActivity@899c272
-07-12 20:04:09.232  5008  5008 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@e881df0 in: PRE_ON_CREATE
-07-12 20:04:09.232  5008  5008 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.mytestapp/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.mytestapp/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@e881df0
-07-12 20:04:09.235  5008  5008 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@e881df0 in: CREATED
-07-12 20:04:09.235  5008  5008 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.mytestapp/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.mytestapp/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@e881df0
-07-12 20:04:09.236  5008  5008 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@e881df0 in: STARTED
-07-12 20:04:09.236  5008  5008 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.mytestapp/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.mytestapp/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@e881df0
-07-12 20:04:09.237   404   404 I BpBinder: onLastStrongRef automatically unlinking death recipients:
-07-12 20:04:09.239  5008  5008 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@e881df0 in: RESUMED
-07-12 20:04:09.239  5008  5008 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.mytestapp/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.mytestapp/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@e881df0
-07-12 20:04:09.268   571   621 I ActivityTaskManager: Displayed com.mytestapp/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity for user 0: +49ms
-07-12 20:04:09.269  5008  5012 I com.mytestapp: Compiler allocated 5250KB to compile void android.view.ViewRootImpl.performTraversals()
-07-12 20:04:09.279  1134  1134 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=6, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity }
-07-12 20:04:09.287   404   404 I BpBinder: onLastStrongRef automatically unlinking death recipients:
-07-12 20:04:09.294  5008  5008 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@e881df0 in: PAUSED
-07-12 20:04:09.296  5008  5008 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.mytestapp/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.mytestapp/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@e881df0
-07-12 20:04:09.299  5008  5008 D VRI[MainActivity]: visibilityChanged oldVisibility=true newVisibility=false
-07-12 20:04:09.301  1134  1134 D StatsLog: LAUNCHER_ONRESUME
-07-12 20:04:09.303  1134  1134 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=6}
-07-12 20:04:09.304   571   714 I ImeTracker: com.mytestapp:6688910e: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
-07-12 20:04:09.304   571   714 I ImeTracker: com.mytestapp:6688910e: onCancelled at PHASE_SERVER_SHOULD_HIDE
-07-12 20:04:09.305   571  1485 W AppSearchIcing: icing-search-engine.cc:321: Error: 5, Message: Document (com.google.android.googlequicksearchbox$OneSearchZeroStateGoogleSuggestions/default, zp) not found.
-07-12 20:04:09.309  1134  1183 D QuickstepModelDelegate: notifyAppTargetEvent action=1 launchLocation=workspace/0/[-1,-1]/[1,1]
-07-12 20:04:09.310  1134  1610 D OneSearchSuggestProvider: AppSearch 0-state cache not available, fallback to AGA
-07-12 20:04:09.310  1134  1610 D OneSearchSuggestProvider: java.util.concurrent.CompletionException: java.util.NoSuchElementException: No value present
-07-12 20:04:09.310  1134  1610 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:308)
-07-12 20:04:09.310  1134  1610 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:323)
-07-12 20:04:09.310  1134  1610 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:684)
-07-12 20:04:09.310  1134  1610 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:486)
-07-12 20:04:09.310  1134  1610 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2138)
-07-12 20:04:09.310  1134  1610 D OneSearchSuggestProvider: 	at com.google.android.apps.nexuslauncher.allapps.E0.onResult(go/retraceme 485d0a63b32755c2e0617651e62706492899977786a56dedfba7c7b896a2ddb7:67)
-07-12 20:04:09.310  1134  1610 D OneSearchSuggestProvider: 	at android.app.appsearch.SearchSessionUtil$1.lambda$onResult$0(go/retraceme 64eee9e9f568ff45978879ad2ff83146f2618ee8a88278736fbdf5fae931976e:144)
-07-12 20:04:09.310  1134  1610 D OneSearchSuggestProvider: 	at android.app.appsearch.SearchSessionUtil$1.$r8$lambda$CEk3q8sDAQVhU3rQwVueB8FAj_M(go/retraceme 64eee9e9f568ff45978879ad2ff83146f2618ee8a88278736fbdf5fae931976e:1)
-07-12 20:04:09.310  1134  1610 D OneSearchSuggestProvider: 	at android.app.appsearch.SearchSessionUtil$1$$ExternalSyntheticLambda0.run(go/retraceme 64eee9e9f568ff45978879ad2ff83146f2618ee8a88278736fbdf5fae931976e:22)
-07-12 20:04:09.310  1134  1610 D OneSearchSuggestProvider: 	at android.os.Handler.handleCallback(Handler.java:959)
-07-12 20:04:09.310  1134  1610 D OneSearchSuggestProvider: 	at android.os.Handler.dispatchMessage(Handler.java:100)
-07-12 20:04:09.310  1134  1610 D OneSearchSuggestProvider: 	at android.os.Looper.loopOnce(Looper.java:232)
-07-12 20:04:09.310  1134  1610 D OneSearchSuggestProvider: 	at android.os.Looper.loop(Looper.java:317)
-07-12 20:04:09.310  1134  1610 D OneSearchSuggestProvider: 	at android.os.HandlerThread.run(HandlerThread.java:85)
-07-12 20:04:09.310  1134  1610 D OneSearchSuggestProvider: Caused by: java.util.NoSuchElementException: No value present
-07-12 20:04:09.310  1134  1610 D OneSearchSuggestProvider: 	at java.util.Optional.get(Optional.java:143)
-07-12 20:04:09.310  1134  1610 D OneSearchSuggestProvider: 	at com.google.android.apps.nexuslauncher.allapps.E0.onResult(go/retraceme 485d0a63b32755c2e0617651e62706492899977786a56dedfba7c7b896a2ddb7:28)
-07-12 20:04:09.310  1134  1610 D OneSearchSuggestProvider: 	... 8 more
-07-12 20:04:09.315  1134  1134 D BaseDepthController: setSurface:
-07-12 20:04:09.315  1134  1134 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
-07-12 20:04:09.315  1134  1134 D BaseDepthController: 	mSurface: Surface(name=com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity)/@0x451e9d1
-07-12 20:04:09.315 25144 25144 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():1984
-07-12 20:04:09.316 25144 25144 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 0, locked = false
-07-12 20:04:09.316 25144 25144 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1248 onStartInput(EditorInfo{EditorInfo{packageName=com.mytestapp, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
-07-12 20:04:09.317 25144 25144 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
-07-12 20:04:09.317  1134  1610 D OneSearchSuggestProvider: Created the binder channel successfully for end point service =com.google.android.apps.search.googleapp.search.suggest.plugins.onesearch.server.OneSearchSuggestService , mChannel=i1{delegate=f{logId=65, target=directaddress:///AndroidComponentAddress%5BIntent%20%7B%20act=grpc.io.action.BIND%20cmp=com.google.android.googlequicksearchbox/com.google.android.apps.search.googleapp.search.suggest.plugins.onesearch.server.OneSearchSuggestService%20%7D%5D}} , mOneSearchConnection=l2.Z@74c0be8
-07-12 20:04:09.327 30509 30509 I fkzu    : (REDACTED) Created gRPC endpoint for service %s
-07-12 20:04:09.353 30509 30586 I elok    : (REDACTED) %s TNG App is logging Clearcut event named %s with the %s account state and %s source
-07-12 20:04:09.369  1134  1134 D StateManager: createAtomicAnimation - fromState: Background, toState: Normal, partial trace:
-07-12 20:04:09.369  1134  1134 D StateManager: 	at com.android.quickstep.util.WorkspaceRevealAnim.prepareToAnimate(go/retraceme 485d0a63b32755c2e0617651e62706492899977786a56dedfba7c7b896a2ddb7:22)
-07-12 20:04:09.369  1134  1134 D StateManager: 	at com.android.quickstep.util.WorkspaceRevealAnim.<init>(go/retraceme 485d0a63b32755c2e0617651e62706492899977786a56dedfba7c7b896a2ddb7:11)
-07-12 20:04:09.369  1134  1134 D StateManager: 	at com.android.launcher3.QuickstepTransitionManager.createWallpaperOpenAnimations(go/retraceme 485d0a63b32755c2e0617651e62706492899977786a56dedfba7c7b896a2ddb7:735)
-07-12 20:04:09.385  5008  5008 D VRI[InstrumentationActivityInvoker$EmptyActivity]: visibilityChanged oldVisibility=true newVisibility=false
-07-12 20:04:09.390  5008  5008 D LifecycleMonitor: Lifecycle status change: com.mytestapp.MainActivity@899c272 in: STOPPED
-07-12 20:04:09.390  5008  5008 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.mytestapp.MainActivity@899c272
-07-12 20:04:09.395  5008  5008 D LifecycleMonitor: Lifecycle status change: com.mytestapp.MainActivity@899c272 in: DESTROYED
-07-12 20:04:09.395  5008  5008 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
-07-12 20:04:09.403   571   714 I ImeTracker: com.google.android.apps.nexuslauncher:fb16a087: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
-07-12 20:04:09.404   571   714 I ImeTracker: com.google.android.apps.nexuslauncher:fb16a087: onCancelled at PHASE_SERVER_SHOULD_HIDE
-07-12 20:04:09.406  5008  5008 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@9e8cfc1
-07-12 20:04:09.416  5008  5022 I TestRunner: finished: validateMainActivityInfo(mytestapp.MainActivityTest)
+07-12 20:19:53.628  5350  5364 I TestRunner: started: validateMainActivityInfo(mytestapp.MainActivityTest)
+07-12 20:19:53.642  5350  5364 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+07-12 20:19:53.676   571   670 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@90b56be6 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+07-12 20:19:53.761  1134  1134 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=281, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.mytestapp/.MainActivity }
+07-12 20:19:53.798  1134  1134 W SplitSelectStateCtor: Missing session instanceIds
+07-12 20:19:53.798  1134  1134 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+07-12 20:19:53.809   404   404 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+07-12 20:19:53.966  5350  5350 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+07-12 20:19:54.103  5350  5350 D LifecycleMonitor: Lifecycle status change: com.mytestapp.MainActivity@899c272 in: PRE_ON_CREATE
+07-12 20:19:54.103  5350  5350 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+07-12 20:19:54.219  5350  5350 E com.mytestapp: Invalid resource ID 0x00000000.
+07-12 20:19:54.275  1134  1561 D EGL_emulation: app_time_stats: avg=470899.66ms min=750.45ms max=941048.88ms count=2
+07-12 20:19:54.303  1134  1134 D VRI[NexusLauncherActivity]: visibilityChanged oldVisibility=true newVisibility=false
+07-12 20:19:54.342  5350  5350 D CompatChangeReporter: Compat change id reported: 309578419; UID 10245; state: ENABLED
+07-12 20:19:54.341  1134  1134 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=7}
+07-12 20:19:54.357  1134  1561 D EGL_emulation: app_time_stats: avg=157316.39ms min=57.25ms max=943348.31ms count=6
+07-12 20:19:54.468   841  1028 D EGL_emulation: app_time_stats: avg=15761.21ms min=15761.21ms max=15761.21ms count=1
+07-12 20:19:54.523  5350  5350 W com.mytestapp: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (unsupported, reflection, allowed)
+07-12 20:19:54.525  5350  5350 W com.mytestapp: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (unsupported, reflection, allowed)
+07-12 20:19:54.534  5350  5350 D CompatChangeReporter: Compat change id reported: 63938206; UID 10245; state: ENABLED
+07-12 20:19:54.639  5350  5350 D LifecycleMonitor: Lifecycle status change: com.mytestapp.MainActivity@899c272 in: CREATED
+07-12 20:19:54.640  5350  5350 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.mytestapp.MainActivity@899c272
+07-12 20:19:54.647  5350  5350 D LifecycleMonitor: Lifecycle status change: com.mytestapp.MainActivity@899c272 in: STARTED
+07-12 20:19:54.647  5350  5350 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.mytestapp.MainActivity@899c272
+07-12 20:19:54.652  5350  5354 I com.mytestapp: Compiler allocated 4206KB to compile void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+07-12 20:19:54.657  5350  5350 D LifecycleMonitor: Lifecycle status change: com.mytestapp.MainActivity@899c272 in: RESUMED
+07-12 20:19:54.657  5350  5350 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.mytestapp.MainActivity@899c272
+07-12 20:19:54.735  5350  5350 W HWUI    : Unknown dataspace 0
+07-12 20:19:54.980   404   544 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10245 pid=0
+07-12 20:19:54.980   404   544 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10245 => denied (1068 us)
+07-12 20:19:54.981   404   544 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10245 pid=0
+07-12 20:19:54.981   404   544 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10245 => denied (269 us)
+07-12 20:19:54.981   404   504 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10245 pid=5350
+07-12 20:19:54.981   404   504 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10245 => denied (166 us)
+07-12 20:19:54.981   404   544 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10245 pid=0
+07-12 20:19:54.981   404   544 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10245 => denied (313 us)
+07-12 20:19:54.982   404   504 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10245 pid=5350
+07-12 20:19:54.983   404   504 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10245 => denied (1635 us)
+07-12 20:19:54.989  5350  5366 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+07-12 20:19:54.990  5350  5366 I EGL_emulation: Opening libGLESv2_emulation.so
+07-12 20:19:55.037  5350  5366 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+07-12 20:19:55.038  5350  5366 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+07-12 20:19:55.072  5350  5354 I com.mytestapp: Compiler allocated 5250KB to compile void android.view.ViewRootImpl.performTraversals()
+07-12 20:19:55.076   160   160 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+07-12 20:19:55.076  5350  5366 I Gralloc4: mapper 4.x is not supported
+07-12 20:19:55.215   571  1536 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10245 pid=0
+07-12 20:19:55.215   571  1536 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10245 => denied (275 us)
+07-12 20:19:55.215   571  1536 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10245 pid=0
+07-12 20:19:55.215   571  1536 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10245 => denied (28 us)
+07-12 20:19:55.215   571  1536 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10245 pid=0
+07-12 20:19:55.215   571  1536 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10245 => denied (29 us)
+07-12 20:19:55.251   571   621 W ziparchive: Unable to open '/data/app/~~7sE5y-nfMkIuEL68c9r3lw==/com.mytestapp-d90g8P1CQX7YX4fN8xzSqQ==/base.dm': No such file or directory
+07-12 20:19:55.258  5350  5354 I com.mytestapp: Compiler allocated 5427KB to compile void android.view.ViewRootImpl.performTraversals()
+07-12 20:19:55.280   571   621 I ActivityTaskManager: Displayed com.mytestapp/.MainActivity for user 0: +1s567ms
+07-12 20:19:55.303   841   932 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@bb20663
+07-12 20:19:55.316   571  1536 W InputManager-JNI: Input channel object 'dfa147c Splash Screen com.mytestapp (client)' was disposed without first being removed with the input manager!
+07-12 20:19:55.343   571   714 I ImeTracker: com.mytestapp:1d583b7b: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+07-12 20:19:55.346   571   714 I ImeTracker: com.mytestapp:1d583b7b: onCancelled at PHASE_SERVER_SHOULD_HIDE
+07-12 20:19:55.351  1134  1134 D BaseDepthController: setSurface:
+07-12 20:19:55.351  1134  1134 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+07-12 20:19:55.351  1134  1134 D BaseDepthController: 	mSurface: null
+07-12 20:19:55.351  1134  1134 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+07-12 20:19:55.366  1134  1134 D StateManager: goToState - fromState: Normal, toState: Normal, partial trace:
+07-12 20:19:55.366  1134  1134 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 485d0a63b32755c2e0617651e62706492899977786a56dedfba7c7b896a2ddb7:4)
+07-12 20:19:55.366  1134  1134 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 485d0a63b32755c2e0617651e62706492899977786a56dedfba7c7b896a2ddb7:1)
+07-12 20:19:55.366  1134  1134 D StateManager: 	at com.android.launcher3.statemanager.StatefulActivity.onStop(go/retraceme 485d0a63b32755c2e0617651e62706492899977786a56dedfba7c7b896a2ddb7:34)
+07-12 20:19:55.370  5350  5364 W FileTestStorage: Output properties is not supported.
+07-12 20:19:55.372  5350  5364 I Tracing : Tracer added: class androidx.test.platform.tracing.AndroidXTracer
+07-12 20:19:55.373  1134  1134 D StatsLog: LAUNCHER_ONSTOP
+07-12 20:19:55.387 24964 25031 I FontLog : (REDACTED) Received query %s, URI %s
+07-12 20:19:55.389 24964 25031 I FontLog : (REDACTED) Query [%s] resolved to %s
+07-12 20:19:55.390  1134  1610 D OneSearchSuggestProvider: Shut down the binder channel
+07-12 20:19:55.394  5350  5364 D EventInjectionStrategy: Creating injection strategy with input manager.
+07-12 20:19:55.394  5350  5364 W com.mytestapp: Accessing hidden method Landroid/hardware/input/InputManager;->getInstance()Landroid/hardware/input/InputManager; (unsupported, reflection, allowed)
+07-12 20:19:55.395  5350  5364 W com.mytestapp: Accessing hidden method Landroid/hardware/input/InputManager;->injectInputEvent(Landroid/view/InputEvent;I)Z (unsupported, reflection, allowed)
+07-12 20:19:55.396  1134  1134 D StatsLog: LAUNCHER_GOOGLE_SEARCH_RESTORE_LIST_SIZE_AFTER_ACTIVITY_RESTART
+07-12 20:19:55.396  5350  5364 W com.mytestapp: Accessing hidden field Landroid/hardware/input/InputManager;->INJECT_INPUT_EVENT_MODE_WAIT_FOR_FINISH:I (unsupported, reflection, allowed)
+07-12 20:19:55.422 24964 25031 I FontLog : (REDACTED) Fetch %s end status %s
+07-12 20:19:55.431  5350  5350 W com.mytestapp: Accessing hidden method Landroid/os/MessageQueue;->next()Landroid/os/Message; (unsupported, reflection, allowed)
+07-12 20:19:55.431 25144 25144 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():1984
+07-12 20:19:55.431  5350  5350 W com.mytestapp: Accessing hidden field Landroid/os/MessageQueue;->mMessages:Landroid/os/Message; (unsupported, reflection, allowed)
+07-12 20:19:55.432  5350  5350 W com.mytestapp: Accessing hidden method Landroid/os/Message;->recycleUnchecked()V (unsupported, reflection, allowed)
+07-12 20:19:55.435 24964 25031 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+07-12 20:19:55.442 25144 25144 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 0, locked = false
+07-12 20:19:55.445 25144 25144 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1248 onStartInput(EditorInfo{EditorInfo{packageName=com.mytestapp, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+07-12 20:19:55.447  5350  5350 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view view.getId() is <2131230961/com.mytestapp:id/mainLabel>
+07-12 20:19:55.449 24964 25031 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+07-12 20:19:55.457 25144 25144 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
+07-12 20:19:55.466  5350  5350 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() equals string from resource id: <2131689543>}' assertion on view view.getId() is <2131230961/com.mytestapp:id/mainLabel>
+07-12 20:19:55.473  5350  5350 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view view.getId() is <2131231146/com.mytestapp:id/subLabel>
+07-12 20:19:55.480  5350  5350 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() equals string from resource id: <2131689641>}' assertion on view view.getId() is <2131231146/com.mytestapp:id/subLabel>
+07-12 20:19:55.484  5350  5350 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view view.getId() is <2131231138/com.mytestapp:id/startButton>
+07-12 20:19:55.493  5350  5350 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() equals string from resource id: <2131689639>}' assertion on view view.getId() is <2131231138/com.mytestapp:id/startButton>
+07-12 20:19:55.511   571  1536 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@90b56be6 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+07-12 20:19:55.526  5350  5350 D LifecycleMonitor: Lifecycle status change: com.mytestapp.MainActivity@899c272 in: PAUSED
+07-12 20:19:55.527  5350  5350 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.mytestapp.MainActivity@899c272
+07-12 20:19:55.538   404   404 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+07-12 20:19:55.544  5350  5350 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@f0cafa in: PRE_ON_CREATE
+07-12 20:19:55.544  5350  5350 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.mytestapp/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.mytestapp/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@f0cafa
+07-12 20:19:55.560  5350  5350 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@f0cafa in: CREATED
+07-12 20:19:55.562  5350  5350 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.mytestapp/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.mytestapp/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@f0cafa
+07-12 20:19:55.563  5350  5350 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@f0cafa in: STARTED
+07-12 20:19:55.564  5350  5350 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.mytestapp/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.mytestapp/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@f0cafa
+07-12 20:19:55.568  5350  5350 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@f0cafa in: RESUMED
+07-12 20:19:55.570  5350  5350 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.mytestapp/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.mytestapp/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@f0cafa
+07-12 20:19:55.620   571   621 I ActivityTaskManager: Displayed com.mytestapp/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity for user 0: +107ms
+07-12 20:19:55.651  1134  1134 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=6, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity }
+07-12 20:19:55.676   404   404 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+07-12 20:19:55.688  5350  5350 D LifecycleMonitor: Lifecycle status change: com.mytestapp.MainActivity@899c272 in: STOPPED
+07-12 20:19:55.688  5350  5350 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.mytestapp.MainActivity@899c272
+07-12 20:19:55.691  5350  5350 D LifecycleMonitor: Lifecycle status change: com.mytestapp.MainActivity@899c272 in: DESTROYED
+07-12 20:19:55.691  5350  5350 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+07-12 20:19:55.691  5350  5350 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@9e8cfc1
+07-12 20:19:55.701   571  1519 W InputManager-JNI: Input channel object 'e822f62 com.mytestapp/com.mytestapp.MainActivity (client)' was disposed without first being removed with the input manager!
+07-12 20:19:55.714  5350  5350 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@f0cafa in: PAUSED
+07-12 20:19:55.714  5350  5350 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.mytestapp/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.mytestapp/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@f0cafa
+07-12 20:19:55.740  1134  1134 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=6}
+07-12 20:19:55.742  5350  5364 I TestRunner: finished: validateMainActivityInfo(mytestapp.MainActivityTest)
