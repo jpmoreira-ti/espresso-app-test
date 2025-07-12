@@ -19,6 +19,25 @@ The project contains the following activities and files:
 2. Open the project in an Android development environment.
 3. Build and run the application on an Android device or emulator.
 
+## Important: Disable System Animations for Reliable Testing
+
+To avoid flaky UI tests, it is highly recommended to disable system animations on your emulator or device before running Espresso tests.  
+You can do this manually in **Settings > Developer options** by setting the following to **Animation off**:
+
+- Window animation scale
+- Transition animation scale
+- Animator duration scale
+
+**Alternatively, you can disable animations via command line with ADB:**
+
+```sh
+adb shell settings put global window_animation_scale 0
+adb shell settings put global transition_animation_scale 0
+adb shell settings put global animator_duration_scale 0
+```
+
+Disabling these animations ensures your UI tests run faster and more reliably.
+
 ## Functionality
 
 - When the app starts, MainActivity is displayed with the message "My Training App" and the subtitle "To get started, click the button below", along with a "Begin" button.
