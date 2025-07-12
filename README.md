@@ -1,25 +1,25 @@
 # MyTestApp
 
-Este é um aplicativo Android simples que demonstra a navegação entre duas atividades.
+This is a simple Android application that demonstrates navigation between two activities.
 
-## Estrutura do Projeto
+## Project Structure
 
-O projeto contém as seguintes atividades e arquivos:
+The project contains the following activities and files:
 
-- **MainActivity.java**: A atividade principal que exibe uma mensagem de boas-vindas e um botão para iniciar a segunda atividade.
-- **SecondActivity.java**: A segunda atividade que exibe uma mensagem de boas-vindas.
-- **activity_main.xml**: O layout da interface do usuário para a MainActivity, que inclui um título, uma sublabel e um botão.
-- **activity_second.xml**: O layout da interface do usuário para a SecondActivity, que exibe uma mensagem de boas-vindas.
-- **strings.xml**: Contém os recursos de string utilizados no aplicativo.
-- **AndroidManifest.xml**: Declara os componentes do aplicativo, incluindo as duas atividades.
+- **MainActivity.java**: The main activity that displays a welcome message and a button to start the second activity.
+- **SecondActivity.java**: The second activity that displays a welcome message.
+- **activity_main.xml**: The user interface layout for MainActivity, which includes a title, a subtitle, and a button.
+- **activity_second.xml**: The user interface layout for SecondActivity, which displays a welcome message.
+- **strings.xml**: Contains the string resources used in the application.
+- **AndroidManifest.xml**: Declares the app components, including both activities.
 
-## Instruções de Configuração
+## Setup Instructions
 
-1. Clone o repositório ou baixe o código-fonte.
-2. Abra o projeto em um ambiente de desenvolvimento Android.
-3. Compile e execute o aplicativo em um dispositivo ou emulador Android.
+1. Clone the repository or download the source code.
+2. Open the project in an Android development environment.
+3. Build and run the application on an Android device or emulator.
 
-## Funcionalidade
+## Functionality
 
-- Ao iniciar o aplicativo, a MainActivity é exibida com a mensagem "App de teste" e um botão "Iniciar".
-- Ao clicar no botão "Iniciar", o usuário é levado para a SecondActivity, onde é exibida a mensagem "Bem vindo!".
+- When the app starts, MainActivity is displayed with the message "My Training App" and the subtitle "To get started, click the button below", along with a "Begin" button.
+- When the "Begin" button is clicked, the user is taken to SecondActivity, where the message "Congratulations. You finished your training!" is
