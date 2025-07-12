@@ -11,9 +11,10 @@ drawable emoji_events_100
 drawable emoji_events_24
 drawable ic_launcher_background
 drawable ic_launcher_foreground
-id label
+id mainLabel
 id startButton
-id sublabel
+id subLabel
+id tropheuImageView
 id welcomeTextView
 layout activity_main
 layout activity_second

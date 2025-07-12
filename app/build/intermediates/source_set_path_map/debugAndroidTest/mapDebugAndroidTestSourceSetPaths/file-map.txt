@@ -1,0 +1,6 @@
+com.mytestapp.test.app-jetified-tracing-1.2.0-0 /Users/jp/.gradle/caches/8.9/transforms/25b0380b65ec06e2fd2c67e5dadeecf2/transformed/jetified-tracing-1.2.0/res
+com.mytestapp.test.app-jetified-core-1.6.1-1 /Users/jp/.gradle/caches/8.9/transforms/c4b25ff60fd141a77552565d3d269e55/transformed/jetified-core-1.6.1/res
+com.mytestapp.test.app-androidTest-2 /Users/jp/Documents/Projects/AndroidApp/MyTestApp/app/build/generated/res/resValues/androidTest/debug
+com.mytestapp.test.app-mergeDebugAndroidTestResources-3 /Users/jp/Documents/Projects/AndroidApp/MyTestApp/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.mytestapp.test.app-mergeDebugAndroidTestResources-4 /Users/jp/Documents/Projects/AndroidApp/MyTestApp/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.mytestapp.test.app-debugAndroidTest-5 /Users/jp/Documents/Projects/AndroidApp/MyTestApp/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources

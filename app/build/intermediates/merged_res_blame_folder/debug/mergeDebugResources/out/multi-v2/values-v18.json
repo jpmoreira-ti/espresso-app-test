@@ -1,10 +1,29 @@
 {
     "logs": [
         {
-            "outputFile": "com.mytestapp-mergeDebugResources-29:/values-v18/values-v18.xml",
+            "outputFile": "com.mytestapp-mergeDebugResources-32:/values-v18/values-v18.xml",
             "map": [
                 {
-                    "source": "/Users/jp/.gradle/caches/8.9/transforms/7a7cf4c825482e252b6bef70945fc727/transformed/appcompat-1.6.1/res/values-v18/values-v18.xml",
+                    "source": "/Users/jp/.gradle/caches/8.9/transforms/c4b25ff60fd141a77552565d3d269e55/transformed/jetified-core-1.6.1/res/values-v18/values.xml",
+                    "from": {
+                        "startLines": "4,12",
+                        "startColumns": "0,0",
+                        "startOffsets": "146,562",
+                        "endLines": "11,19",
+                        "endColumns": "8,8",
+                        "endOffsets": "561,975"
+                    },
+                    "to": {
+                        "startLines": "3,11",
+                        "startColumns": "4,4",
+                        "startOffsets": "104,524",
+                        "endLines": "10,18",
+                        "endColumns": "8,8",
+                        "endOffsets": "519,937"
+                    }
+                },
+                {
+                    "source": "/Users/jp/.gradle/caches/8.9/transforms/017e044d3432dfbb9814afd2075f85cd/transformed/appcompat-1.6.1/res/values-v18/values-v18.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

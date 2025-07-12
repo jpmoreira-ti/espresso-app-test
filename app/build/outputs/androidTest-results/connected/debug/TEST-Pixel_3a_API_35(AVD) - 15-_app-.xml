@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="mytestapp.MainActivityTest" tests="3" failures="0" errors="0" skipped="0" time="3.374" timestamp="2025-07-12T23:04:12" hostname="localhost">
+  <properties>
+    <property name="device" value="Pixel_3a_API_35(AVD) - 15" />
+    <property name="flavor" value="" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="validateMainActivityInfo" classname="mytestapp.MainActivityTest" time="0.865" />
+  <testcase name="validateClickOnButtonOpenSecondActivity" classname="mytestapp.MainActivityTest" time="0.885" />
+  <testcase name="validateSecondActivityInfo" classname="mytestapp.SecondActivityTest" time="0.447" />
+</testsuite>

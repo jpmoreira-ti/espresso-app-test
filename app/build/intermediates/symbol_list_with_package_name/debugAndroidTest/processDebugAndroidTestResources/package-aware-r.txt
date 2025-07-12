@@ -1,0 +1,3 @@
+com.mytestapp.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

@@ -1,0 +1,27 @@
+EXECUTING: /Users/jp/Library/Android/sdk/build-tools/34.0.0/aapt dump badging /Users/jp/Documents/Projects/AndroidApp/MyTestApp/app/build/intermediates/apk/androidTest/debug/app-debug-androidTest.apk
+CURRENT_WORKING_DIRECTORY: /Users/jp/Documents/Projects/AndroidApp/MyTestApp
+START_TIME: 2025-07-12 20:04:11.862
+START_TIME-NANOS: 2025-07-12 20:04:11.862265000
+ENVIRONMENT:
+
+*****************************************
+STDOUT/STDERR BELOW
+===================
+package: name='com.mytestapp.test' versionCode='' versionName='' platformBuildVersionName='15' platformBuildVersionCode='35' compileSdkVersion='35' compileSdkVersionCodename='15'
+sdkVersion:'21'
+targetSdkVersion:'35'
+application: label='' icon=''
+application-debuggable
+uses-library:'android.test.runner'
+feature-group: label=''
+  uses-feature: name='android.hardware.faketouch'
+  uses-implied-feature: name='android.hardware.faketouch' reason='default feature for all apps'
+supports-screens: 'small' 'normal' 'large' 'xlarge'
+supports-any-density: 'true'
+locales: '--_--'
+densities: '160'
+===================
+END_TIME: 2025-07-12 20:04:11.887
+END_TIME-NANOS: 2025-07-12 20:04:11.887247000
+DURATION: 24ms
+EXIT CODE: 0

@@ -1,0 +1,172 @@
+# 2025-07-12T23:04:12.272730Z:
+test_suite_meta_data {
+  scheduled_test_case_count: 3
+}
+test_status: PASSED
+test_result {
+  test_case {
+    test_class: "MainActivityTest"
+    test_package: "mytestapp"
+    test_method: "validateMainActivityInfo"
+    start_time {
+      seconds: 1752361448
+      nanos: 774000000
+    }
+    end_time {
+      seconds: 1752361449
+      nanos: 702000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/jp/Documents/Projects/AndroidApp/MyTestApp/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_35(AVD) - 15/logcat-mytestapp.MainActivityTest-validateMainActivityInfo.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/jp/Documents/Projects/AndroidApp/MyTestApp/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_35(AVD) - 15/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/jp/Documents/Projects/AndroidApp/MyTestApp/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_35(AVD) - 15/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/jp/Documents/Projects/AndroidApp/MyTestApp/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_35(AVD) - 15/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "MainActivityTest"
+    test_package: "mytestapp"
+    test_method: "validateClickOnButtonOpenSecondActivity"
+    start_time {
+      seconds: 1752361449
+      nanos: 736000000
+    }
+    end_time {
+      seconds: 1752361450
+      nanos: 616000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/jp/Documents/Projects/AndroidApp/MyTestApp/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_35(AVD) - 15/logcat-mytestapp.MainActivityTest-validateClickOnButtonOpenSecondActivity.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/jp/Documents/Projects/AndroidApp/MyTestApp/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_35(AVD) - 15/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/jp/Documents/Projects/AndroidApp/MyTestApp/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_35(AVD) - 15/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/jp/Documents/Projects/AndroidApp/MyTestApp/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_35(AVD) - 15/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "SecondActivityTest"
+    test_package: "mytestapp"
+    test_method: "validateSecondActivityInfo"
+    start_time {
+      seconds: 1752361450
+      nanos: 847000000
+    }
+    end_time {
+      seconds: 1752361451
+      nanos: 289000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/jp/Documents/Projects/AndroidApp/MyTestApp/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_35(AVD) - 15/logcat-mytestapp.SecondActivityTest-validateSecondActivityInfo.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/jp/Documents/Projects/AndroidApp/MyTestApp/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_35(AVD) - 15/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/jp/Documents/Projects/AndroidApp/MyTestApp/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_35(AVD) - 15/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/jp/Documents/Projects/AndroidApp/MyTestApp/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_35(AVD) - 15/cpuinfo"
+    }
+  }
+}
+output_artifact {
+  label {
+    label: "test-results.log"
+    namespace: "com.google.testing.platform.runtime.android.driver.AndroidInstrumentationDriver"
+  }
+  source_path {
+    path: "/Users/jp/Documents/Projects/AndroidApp/MyTestApp/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_35(AVD) - 15/testlog/test-results.log"
+  }
+  type: TEST_DATA
+  mime_type: "text/plain"
+}

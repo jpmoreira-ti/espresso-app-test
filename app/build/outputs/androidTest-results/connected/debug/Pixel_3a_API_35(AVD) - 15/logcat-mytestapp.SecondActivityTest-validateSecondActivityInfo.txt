@@ -1,0 +1,145 @@
+07-12 20:04:10.546  5008  5022 I TestRunner: started: validateSecondActivityInfo(mytestapp.SecondActivityTest)
+07-12 20:04:10.551  5008  5022 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+07-12 20:04:10.559   571   989 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@8d4bbaa8 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+07-12 20:04:10.562  1134  1134 D SearchTargetUtil: queryLength=0 size=0
+07-12 20:04:10.564  1398  1624 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+07-12 20:04:10.564  1398  1624 I AiAiEcho: EchoTargets:
+07-12 20:04:10.564  1398  1624 I AiAiEcho: Filtered by AiAi flag check:
+07-12 20:04:10.564  1398  1624 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+07-12 20:04:10.564  1398  1624 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+07-12 20:04:10.565  1398  1624 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+07-12 20:04:10.566  1398  1624 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+07-12 20:04:10.567  1134  1134 D SsBaseTemplateCard: No text view can be set up
+07-12 20:04:10.567  1134  1134 D SsBaseTemplateCard: Passed-in item info is null
+07-12 20:04:10.567  1134  1134 D SsBaseTemplateCard: Passed-in item info is null
+07-12 20:04:10.567  1134  1134 D SsBaseTemplateCard: Passed-in item info is null
+07-12 20:04:10.567  1134  1134 I SsBaseTemplateCard: Secondary card pane is null
+07-12 20:04:10.570   404   404 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+07-12 20:04:10.574  1134  1134 W SplitSelectStateCtor: Missing session instanceIds
+07-12 20:04:10.574  1134  1134 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+07-12 20:04:10.582  1134  1134 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=280, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.mytestapp/.SecondActivity }
+07-12 20:04:10.594  5008  5008 D LifecycleMonitor: Lifecycle status change: com.mytestapp.SecondActivity@ea9b45 in: PRE_ON_CREATE
+07-12 20:04:10.594  5008  5008 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+07-12 20:04:10.603  5008  5008 D LifecycleMonitor: Lifecycle status change: com.mytestapp.SecondActivity@ea9b45 in: CREATED
+07-12 20:04:10.603  5008  5008 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.mytestapp.SecondActivity@ea9b45
+07-12 20:04:10.604  5008  5008 D LifecycleMonitor: Lifecycle status change: com.mytestapp.SecondActivity@ea9b45 in: STARTED
+07-12 20:04:10.605  5008  5008 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.mytestapp.SecondActivity@ea9b45
+07-12 20:04:10.607  5008  5008 D LifecycleMonitor: Lifecycle status change: com.mytestapp.SecondActivity@ea9b45 in: RESUMED
+07-12 20:04:10.608  5008  5008 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.mytestapp.SecondActivity@ea9b45
+07-12 20:04:10.625   363  5043 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+07-12 20:04:10.625   363  5043 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+07-12 20:04:10.650   841  1028 D EGL_emulation: app_time_stats: avg=226.10ms min=2.18ms max=875.27ms count=8
+07-12 20:04:10.670  1134  1134 D VRI[NexusLauncherActivity]: visibilityChanged oldVisibility=true newVisibility=false
+07-12 20:04:10.672  1134  1134 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=7}
+07-12 20:04:10.677   571   621 W ziparchive: Unable to open '/data/app/~~D9HBQDzcTZ9vvNvzsczkww==/com.mytestapp-V51Y-8X1_Mo7_eY9ILMOuw==/base.dm': No such file or directory
+07-12 20:04:10.689   571   621 I ActivityTaskManager: Displayed com.mytestapp/.SecondActivity for user 0: +121ms
+07-12 20:04:10.692  5008  5022 W SurfaceComposerClient: Sync transaction timed out waiting for commit callback.
+07-12 20:04:10.697   841   932 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@34f1d46
+07-12 20:04:10.698  5008  5008 D RootViewPicker: Root not ready - waiting: 10ms for one to appear.
+07-12 20:04:10.700   571  1486 W InputManager-JNI: Input channel object 'a53ed10 Splash Screen com.mytestapp (client)' was disposed without first being removed with the input manager!
+07-12 20:04:10.708  5008  5008 D RootViewPicker: Root not ready - waiting: 25ms for one to appear.
+07-12 20:04:10.711  1134  1134 D BaseDepthController: setSurface:
+07-12 20:04:10.711  1134  1134 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+07-12 20:04:10.711  1134  1134 D BaseDepthController: 	mSurface: null
+07-12 20:04:10.711  1134  1134 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+07-12 20:04:10.712   571   714 I ImeTracker: com.mytestapp:2284ad7: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+07-12 20:04:10.712   571   714 I ImeTracker: com.mytestapp:2284ad7: onCancelled at PHASE_SERVER_SHOULD_HIDE
+07-12 20:04:10.712  1134  1134 D StateManager: goToState - fromState: Normal, toState: Normal, partial trace:
+07-12 20:04:10.712  1134  1134 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 485d0a63b32755c2e0617651e62706492899977786a56dedfba7c7b896a2ddb7:4)
+07-12 20:04:10.712  1134  1134 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 485d0a63b32755c2e0617651e62706492899977786a56dedfba7c7b896a2ddb7:1)
+07-12 20:04:10.712  1134  1134 D StateManager: 	at com.android.launcher3.statemanager.StatefulActivity.onStop(go/retraceme 485d0a63b32755c2e0617651e62706492899977786a56dedfba7c7b896a2ddb7:34)
+07-12 20:04:10.712  1134  1134 D StatsLog: LAUNCHER_ONSTOP
+07-12 20:04:10.714  1134  1610 D OneSearchSuggestProvider: Shut down the binder channel
+07-12 20:04:10.715  1134  1134 D StatsLog: LAUNCHER_GOOGLE_SEARCH_RESTORE_LIST_SIZE_AFTER_ACTIVITY_RESTART
+07-12 20:04:10.715  1134  1164 I IPCThreadState: oneway function results for code 2 on binder at 0xb400007d1447e650 will be dropped but finished with status UNKNOWN_TRANSACTION
+07-12 20:04:10.719 25144 25144 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():1984
+07-12 20:04:10.720 25144 25144 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 0, locked = false
+07-12 20:04:10.721 25144 25144 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1248 onStartInput(EditorInfo{EditorInfo{packageName=com.mytestapp, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+07-12 20:04:10.723 25144 25144 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
+07-12 20:04:10.729   363  5043 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+07-12 20:04:10.729   363  5043 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+07-12 20:04:10.741  5008  5008 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view view.getId() is <2131231198/com.mytestapp:id/tropheuImageView>
+07-12 20:04:10.746  5008  5008 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view view.getId() is <2131231214/com.mytestapp:id/welcomeTextView>
+07-12 20:04:10.748  5008  5008 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() equals string from resource id: <2131689642>}' assertion on view view.getId() is <2131231214/com.mytestapp:id/welcomeTextView>
+07-12 20:04:10.750   571   601 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@8d4bbaa8 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+07-12 20:04:10.757  5008  5008 D LifecycleMonitor: Lifecycle status change: com.mytestapp.SecondActivity@ea9b45 in: PAUSED
+07-12 20:04:10.757  5008  5008 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.mytestapp.SecondActivity@ea9b45
+07-12 20:04:10.763  5008  5008 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@45a02b4 in: PRE_ON_CREATE
+07-12 20:04:10.763  5008  5008 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.mytestapp/.SecondActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.mytestapp/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@45a02b4
+07-12 20:04:10.765  5008  5008 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@45a02b4 in: CREATED
+07-12 20:04:10.766  5008  5008 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.mytestapp/.SecondActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.mytestapp/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@45a02b4
+07-12 20:04:10.766  5008  5008 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@45a02b4 in: STARTED
+07-12 20:04:10.766  5008  5008 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.mytestapp/.SecondActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.mytestapp/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@45a02b4
+07-12 20:04:10.767  5008  5008 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@45a02b4 in: RESUMED
+07-12 20:04:10.768  5008  5008 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.mytestapp/.SecondActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.mytestapp/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@45a02b4
+07-12 20:04:10.770   404   404 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+07-12 20:04:10.814   571   621 I ActivityTaskManager: Displayed com.mytestapp/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity for user 0: +52ms
+07-12 20:04:10.833   363  5043 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+07-12 20:04:10.833   363  5043 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+07-12 20:04:10.837   404   404 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+07-12 20:04:10.838  5008  5008 D VRI[SecondActivity]: visibilityChanged oldVisibility=true newVisibility=false
+07-12 20:04:10.840  1134  1134 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=6, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity }
+07-12 20:04:10.840  5008  5008 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@45a02b4 in: PAUSED
+07-12 20:04:10.841  5008  5008 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.mytestapp/.SecondActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.mytestapp/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@45a02b4
+07-12 20:04:10.855  1134  1134 D StatsLog: LAUNCHER_ONRESUME
+07-12 20:04:10.857  1134  1134 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=6}
+07-12 20:04:10.859   571  1485 W AppSearchIcing: icing-search-engine.cc:321: Error: 5, Message: Document (com.google.android.googlequicksearchbox$OneSearchZeroStateGoogleSuggestions/default, zp) not found.
+07-12 20:04:10.862  1134  1610 D OneSearchSuggestProvider: AppSearch 0-state cache not available, fallback to AGA
+07-12 20:04:10.862  1134  1610 D OneSearchSuggestProvider: java.util.concurrent.CompletionException: java.util.NoSuchElementException: No value present
+07-12 20:04:10.862  1134  1610 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:308)
+07-12 20:04:10.862  1134  1610 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:323)
+07-12 20:04:10.862  1134  1610 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:684)
+07-12 20:04:10.862  1134  1610 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:486)
+07-12 20:04:10.862  1134  1610 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2138)
+07-12 20:04:10.862  1134  1610 D OneSearchSuggestProvider: 	at com.google.android.apps.nexuslauncher.allapps.E0.onResult(go/retraceme 485d0a63b32755c2e0617651e62706492899977786a56dedfba7c7b896a2ddb7:67)
+07-12 20:04:10.862  1134  1610 D OneSearchSuggestProvider: 	at android.app.appsearch.SearchSessionUtil$1.lambda$onResult$0(go/retraceme 64eee9e9f568ff45978879ad2ff83146f2618ee8a88278736fbdf5fae931976e:144)
+07-12 20:04:10.862  1134  1610 D OneSearchSuggestProvider: 	at android.app.appsearch.SearchSessionUtil$1.$r8$lambda$CEk3q8sDAQVhU3rQwVueB8FAj_M(go/retraceme 64eee9e9f568ff45978879ad2ff83146f2618ee8a88278736fbdf5fae931976e:1)
+07-12 20:04:10.862  1134  1610 D OneSearchSuggestProvider: 	at android.app.appsearch.SearchSessionUtil$1$$ExternalSyntheticLambda0.run(go/retraceme 64eee9e9f568ff45978879ad2ff83146f2618ee8a88278736fbdf5fae931976e:22)
+07-12 20:04:10.862  1134  1610 D OneSearchSuggestProvider: 	at android.os.Handler.handleCallback(Handler.java:959)
+07-12 20:04:10.862  1134  1610 D OneSearchSuggestProvider: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+07-12 20:04:10.862  1134  1610 D OneSearchSuggestProvider: 	at android.os.Looper.loopOnce(Looper.java:232)
+07-12 20:04:10.862  1134  1610 D OneSearchSuggestProvider: 	at android.os.Looper.loop(Looper.java:317)
+07-12 20:04:10.862  1134  1610 D OneSearchSuggestProvider: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+07-12 20:04:10.862  1134  1610 D OneSearchSuggestProvider: Caused by: java.util.NoSuchElementException: No value present
+07-12 20:04:10.862  1134  1610 D OneSearchSuggestProvider: 	at java.util.Optional.get(Optional.java:143)
+07-12 20:04:10.862  1134  1610 D OneSearchSuggestProvider: 	at com.google.android.apps.nexuslauncher.allapps.E0.onResult(go/retraceme 485d0a63b32755c2e0617651e62706492899977786a56dedfba7c7b896a2ddb7:28)
+07-12 20:04:10.862  1134  1610 D OneSearchSuggestProvider: 	... 8 more
+07-12 20:04:10.863  1134  1610 D OneSearchSuggestProvider: Created the binder channel successfully for end point service =com.google.android.apps.search.googleapp.search.suggest.plugins.onesearch.server.OneSearchSuggestService , mChannel=i1{delegate=f{logId=73, target=directaddress:///AndroidComponentAddress%5BIntent%20%7B%20act=grpc.io.action.BIND%20cmp=com.google.android.googlequicksearchbox/com.google.android.apps.search.googleapp.search.suggest.plugins.onesearch.server.OneSearchSuggestService%20%7D%5D}} , mOneSearchConnection=l2.Z@6df21e3
+07-12 20:04:10.865  1134  1183 D QuickstepModelDelegate: notifyAppTargetEvent action=1 launchLocation=workspace/0/[-1,-1]/[1,1]
+07-12 20:04:10.867 30509 30509 I fkzu    : (REDACTED) Created gRPC endpoint for service %s
+07-12 20:04:10.867 30509 30586 I elok    : (REDACTED) %s TNG App is logging Clearcut event named %s with the %s account state and %s source
+07-12 20:04:10.881  1134  1134 D BaseDepthController: setSurface:
+07-12 20:04:10.881  1134  1134 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+07-12 20:04:10.881  1134  1134 D BaseDepthController: 	mSurface: Surface(name=com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity)/@0x451e9d1
+07-12 20:04:10.930  1134  1134 D StateManager: createAtomicAnimation - fromState: Background, toState: Normal, partial trace:
+07-12 20:04:10.930  1134  1134 D StateManager: 	at com.android.quickstep.util.WorkspaceRevealAnim.prepareToAnimate(go/retraceme 485d0a63b32755c2e0617651e62706492899977786a56dedfba7c7b896a2ddb7:22)
+07-12 20:04:10.930  1134  1134 D StateManager: 	at com.android.quickstep.util.WorkspaceRevealAnim.<init>(go/retraceme 485d0a63b32755c2e0617651e62706492899977786a56dedfba7c7b896a2ddb7:11)
+07-12 20:04:10.930  1134  1134 D StateManager: 	at com.android.launcher3.QuickstepTransitionManager.createWallpaperOpenAnimations(go/retraceme 485d0a63b32755c2e0617651e62706492899977786a56dedfba7c7b896a2ddb7:735)
+07-12 20:04:10.942   363  5043 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+07-12 20:04:10.942   363  5043 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+07-12 20:04:10.944   571   592 W system_server: Missing inline cache for void com.android.server.wm.ActivityTaskSupervisor.processStoppingAndFinishingActivities(com.android.server.wm.ActivityRecord, boolean, java.lang.String)
+07-12 20:04:10.944   571   592 W system_server: Missing inline cache for void com.android.server.wm.ActivityTaskSupervisor.processStoppingAndFinishingActivities(com.android.server.wm.ActivityRecord, boolean, java.lang.String)
+07-12 20:04:10.954  1398  1624 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+07-12 20:04:10.955  1398  1624 I AiAiEcho: EchoTargets:
+07-12 20:04:10.955  1398  1624 I AiAiEcho: Filtered by AiAi flag check:
+07-12 20:04:10.955  1398  1624 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+07-12 20:04:10.956  1398  1624 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+07-12 20:04:10.962  1398  1624 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+07-12 20:04:10.963   571   714 I ImeTracker: com.google.android.apps.nexuslauncher:ab802547: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+07-12 20:04:10.963   571   714 I ImeTracker: com.google.android.apps.nexuslauncher:ab802547: onCancelled at PHASE_SERVER_SHOULD_HIDE
+07-12 20:04:10.964  1398  1624 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+07-12 20:04:10.972  5008  5008 D LifecycleMonitor: Lifecycle status change: com.mytestapp.SecondActivity@ea9b45 in: STOPPED
+07-12 20:04:10.975 25144 25144 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():1984
+07-12 20:04:10.975  5008  5008 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.mytestapp.SecondActivity@ea9b45
+07-12 20:04:10.978 25144 25144 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 0, locked = false
+07-12 20:04:10.979  1134  1134 D SsBaseTemplateCard: No text view can be set up
+07-12 20:04:10.980  1134  1134 D SsBaseTemplateCard: Passed-in item info is null
+07-12 20:04:10.980  1134  1134 D SsBaseTemplateCard: Passed-in item info is null
+07-12 20:04:10.980  1134  1134 D SsBaseTemplateCard: Passed-in item info is null
+07-12 20:04:10.980  1134  1134 I SsBaseTemplateCard: Secondary card pane is null
+07-12 20:04:10.984 25144 25144 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1248 onStartInput(EditorInfo{EditorInfo{packageName=com.google.android.apps.nexuslauncher, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+07-12 20:04:10.987 25144 25144 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
+07-12 20:04:10.991  5008  5008 D LifecycleMonitor: Lifecycle status change: com.mytestapp.SecondActivity@ea9b45 in: DESTROYED
+07-12 20:04:10.991  5008  5008 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+07-12 20:04:10.991  5008  5008 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@c10a4a2
+07-12 20:04:10.993  5008  5022 I TestRunner: finished: validateSecondActivityInfo(mytestapp.SecondActivityTest)
